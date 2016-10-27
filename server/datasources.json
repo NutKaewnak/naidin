@@ -3,5 +3,14 @@
     "name": "db",
     "connector": "memory",
     "file": "dataNaja.json"
+  },
+  "mysql_test": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "naidin",
+    "password": "12345",
+    "name": "mysql_test",
+    "connector": "mysql",
+    "user": "nicole"
   }
 }

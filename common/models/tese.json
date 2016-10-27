@@ -1,0 +1,22 @@
+{
+  "name": "tese",
+  "plural": "teses",
+  "base": "Model",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "hhhh": {
+      "type": "string"
+    },
+    "propertyName93": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

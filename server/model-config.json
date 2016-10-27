@@ -13,31 +13,38 @@
       "./mixins"
     ]
   },
+  "Application": {
+    "dataSource": "mysql_test"
+  },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mysql_test"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mysql_test",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mysql_test",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mysql_test",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mysql_test",
     "public": false
   },
   "Book": {
-    "dataSource": "db",
+    "dataSource": "mysql_test",
     "public": true
   },
   "Library": {
-    "dataSource": "db",
+    "dataSource": "mysql_test",
+    "public": true
+  },
+  "tese": {
+    "dataSource": null,
     "public": true
   }
 }
