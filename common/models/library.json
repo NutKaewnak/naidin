@@ -1,0 +1,34 @@
+{
+  "name": "Library",
+  "plural": "Libraries",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "libraryName": {
+      "type": "string",
+      "id": false,
+      "required": true,
+      "index": false
+    },
+    "libraryID": {
+      "type": "number",
+      "id": true,
+      "required": false,
+      "index": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "books": {
+      "type": "hasMany",
+      "model": "Book",
+      "foreignKey": "libraryName"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
