@@ -14,37 +14,33 @@
     ]
   },
   "Application": {
-    "dataSource": "mysql_test"
+    "dataSource": "db"
   },
   "User": {
-    "dataSource": "mysql_test"
+    "dataSource": "db"
   },
   "AccessToken": {
-    "dataSource": "mysql_test",
+    "dataSource": "db",
     "public": false
   },
   "ACL": {
-    "dataSource": "mysql_test",
+    "dataSource": "db",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "mysql_test",
+    "dataSource": "db",
     "public": false
   },
   "Role": {
-    "dataSource": "mysql_test",
+    "dataSource": "db",
     "public": false
   },
   "Book": {
-    "dataSource": "mysql_test",
+    "dataSource": "db",
     "public": true
   },
   "Library": {
-    "dataSource": "mysql_test",
-    "public": true
-  },
-  "tese": {
-    "dataSource": null,
+    "dataSource": "db",
     "public": true
   }
 }
