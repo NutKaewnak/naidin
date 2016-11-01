@@ -44,7 +44,7 @@
     "public": true
   },
   "Shelf": {
-    "dataSource": "mysql_test",
+    "dataSource": "db",
     "public": true
   }
 }
