@@ -46,5 +46,9 @@
   "tese": {
     "dataSource": null,
     "public": true
+  },
+  "Shelf": {
+    "dataSource": "mysql_test",
+    "public": true
   }
 }
